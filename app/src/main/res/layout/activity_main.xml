@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/cheesecake"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cupcake Calculator"
+            android:textColor="#050505"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/editSatu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:hint="@string/nol"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editDua"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:hint="@string/nol"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus_Button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/minus_Button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:text="@string/minus" />
+
+        <Button
+            android:id="@+id/kali_Button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:text="@string/kali" />
+
+        <Button
+            android:id="@+id/bagi_Button"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:text="@string/bagi" />
+
+        <Button
+            android:id="@+id/hapus_Button"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#2196F3"
+            android:text="@string/hapus" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/RESULT"
+            android:textColor="#F1E9E9"
+            android:background="#DA1616"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#F8F5F4"
+            android:textColor="#0F0F0F"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
